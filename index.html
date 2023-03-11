@@ -1,0 +1,19 @@
+<html>
+
+<head></head>
+
+<body>
+    <script>
+        function injectIntoIFrame(el) {
+            console.log(666, el);
+            this.document.body.append(Object.assign(document.createElement("link"), {
+                type: "text/css",
+                rel: "stylesheet",
+                href: "https://cartoonify-maker.github.io/style.css"
+            }));
+        }
+    </script>
+    <iframe src="https://www.cartoonify.de/" width="800" height="600" onload="injectIntoIFrame(this)"></iframe>
+</body>
+
+</html>

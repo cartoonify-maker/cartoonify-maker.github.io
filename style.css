@@ -1,0 +1,39 @@
+#masthead,
+header,
+iframe,
+h2,
+ins,
+#secondary,
+footer,
+.adsbygoogle,
+.entry-content > p {
+  display: none !important;
+}
+
+body {
+  background-image: none !important;
+}
+
+#content > div.wrap {
+  margin-top: 0 !important;
+}
+
+#svga-svgfile#svga-svgfile {
+  background-color: green !important;
+  color: beige !important;
+}
+#svga-downloadavatar li {
+  background-color: lightgreen !important;
+}
+.has-sidebar:not(.error404) #primary {
+  width: 100%;
+}
+
+#primary::after {
+  width: 100%;
+  content: "äanwijzingen";
+}
+
+[id*="svga-elements-backs"]:nth-last-child(-n + 13) {
+  display: none;
+}
